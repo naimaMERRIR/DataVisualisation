@@ -237,5 +237,11 @@ J’ai commencé par récupérer les données qui m'intéressent dont : l'arrond
 ## 2.Première datavisualisation avec une Carte (Datawrapper) 
 
 Ces tableaux sont utilisés pour générer des représentations sous forme de cartes sur Datawrapper. Le choix de cette outil se justifie par la disponibilité de la carte des arrondissments de Paris.Le but de ces 2 cartes est de montrer les anomalies signalées par arrondissements en 2022 pour le mois de Juin puis le mois de Novembre. Le code INSEE ainsi que le nombre total de signalements pour  chaque arrondissement sont les valeurs qui m’ont permis de construire cette visualisation. En cliquant sur un élément de la légende, on aperçoit à quoi ça correspond sur la carte. 
+**Anomalies signalées par arrondissements en mois de Juin 2022**
+
+<iframe title="Anomalies signalées par arrondissements en 2022 " aria-label="Map" id="datawrapper-chart-FytoW" src="https://datawrapper.dwcdn.net/FytoW/2/" scrolling="no" frameborder="0" style="border: none;" width="600" height="444" data-external="1"></iframe>
+
+
+**Anomalies signalées par arrondissements en mois de Novembre 2022**
 
 <iframe title="Anomalies signalées par arrondissements en mois de Novembre 2022 " aria-label="Map" id="datawrapper-chart-1gUT1" src="https://datawrapper.dwcdn.net/1gUT1/1/" scrolling="no" frameborder="0" style="border: none;" width="600" height="471" data-external="1"></iframe>
