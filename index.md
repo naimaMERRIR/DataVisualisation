@@ -6,7 +6,7 @@ Pour cette première présentation j’ai décidé de travailler sur une visuali
 Quel est l’arrondissement de Paris qui souffre le plus d'anomalies ? Quels sont les origines de ces anomalies ? Pourquoi le nombre de signalements est aussi élevé au mois de juin et bas au mois de Novembre ?  
 J’ai commencé par récupérer les données qui m'intéressent dont : l'arrondissement, calculer le nombre total d’anomalies par arrondissement (des milliers de signalements par jour), récupérer les codes INSEE des arrondissements Parisiens à l’aide d’ une requête SPARQL. Ce qui donne les tableaux suivant : 
 
-#Mois de Juin 
+**Mois de Juin** 
 <table class="tg">
 <thead>
   <tr>
@@ -120,7 +120,7 @@ J’ai commencé par récupérer les données qui m'intéressent dont : l'arrond
 </table>
 > Tableau généré avec [Tables Generator](https://www.tablesgenerator.com)
 
-#Mois de Novembre 
+**Mois de Novembre** 
 <table class="tg">
 <thead>
   <tr>
