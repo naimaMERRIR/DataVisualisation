@@ -246,3 +246,8 @@ Ces tableaux sont utilisés pour générer des représentations sous forme de ca
 **Anomalies signalées par arrondissements en mois de Novembre 2022**
 
 <iframe title="Anomalies signalées par arrondissements en mois de Novembre 2022 " aria-label="Map" id="datawrapper-chart-1gUT1" src="https://datawrapper.dwcdn.net/1gUT1/1/" scrolling="no" frameborder="0" style="border: none;" width="600" height="471" data-external="1"></iframe>
+
+**Analyse** 
+On constate que le 10 éme  le 11 ème  arrondissement de Paris sont à la tête du classement puisqu'en juin on retrouve 8680 signalements (10éme)  et en Novembre on retrouve 2432   signalements (11éme). Pour expliquer ces premiers résultats je met en évidence l’hypothèse suivante : 
+Si le 10ème et le 11ème arrondissement de Paris ont un nombre important de signalements, cela signifie qu’ils sont les deux arrondissements les plus peuplés et les plus grands en superficie. 
+Maintenant, la question qu’il faut se poser c’est comment prouver ou rejeter cette hypothèse ? 
