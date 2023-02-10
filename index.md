@@ -118,7 +118,7 @@ J’ai commencé par récupérer les données qui m'intéressent dont : l'arrond
   </tr>
 </tbody>
 </table>
-> Tableau généré avec [Tables Generator](https://www.tablesgenerator.com)
+
 
 **Mois de Novembre** 
 <table class="tg">
@@ -233,7 +233,7 @@ J’ai commencé par récupérer les données qui m'intéressent dont : l'arrond
 </tbody>
 </table>
 
-
+> Tableau généré avec [Tables Generator](https://www.tablesgenerator.com)
 ## 2. Deuxième datavisualisation avec une Carte (Datawrapper) 
 
 Ces tableaux sont utilisés pour générer des représentations sous forme de cartes sur Datawrapper. Le choix de cette outil se justifie par la disponibilité de la carte des arrondissments de Paris.Le but de ces 2 cartes est de montrer les anomalies signalées par arrondissements en 2022 pour le mois de Juin puis le mois de Novembre. Le code INSEE ainsi que le nombre total de signalements pour  chaque arrondissement sont les valeurs qui m’ont permis de construire cette visualisation. En cliquant sur un élément de la légende, on aperçoit à quoi ça correspond sur la carte. 
