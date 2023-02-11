@@ -3,11 +3,33 @@ En 2012, la mairie de Paris a lancé une application mobile intitulée “Dans m
 
 Comment ça marche ? l’utilisateur remplit un formulaire pour déclarer une anomalie : nid de poule dans la chaussée, arbre en mauvais état, un jeu d’enfants abîmé, objets encombrants laissés à l’abandon, une signalisation routière défectueuse, dépôts d’encombrants ou de détritus, etc. Un nouvel onglet spécifique dans la catégorie « graffitis », permet aux Parisien·ne·s de signaler les inscriptions haineuses dans les rues de la Ville afin qu'elles soient effacées au plus vite. L’application permet en quelques clics et une photo d’informer les services gestionnaires. [DansMaRue] (https://teleservices.paris.fr/dansmarue/jsp/site/Portal.jsp?page=fodansmarue)
 
-`#RRGGBBL’open data de la ville de Paris'  collecte des données via cette application pour les publier sous forme d’un jeu de données.La platefrome publie le corpus des anomalies signalées par les utilisateurs de cette application de 2012 à 2022.[OpenData.Paris] (https://opendata.paris.fr/explore/dataset/dans-ma-rue/information)
+L’open data de Paris collecte des données via cette application et les publie sous forme de jeux de données depuis 2012 à 2022.
+[OpenData.Paris] (https://opendata.paris.fr/explore/dataset/dans-ma-rue/information)
 
-Pour cette première présentation j’ai décidé de travailler sur une visualisation des anomalies signalée en 2022 ce qui représente 742 480 lignes de données en fichier csv. Après avoir bien visualiser le corpus avec l'outil Openrefine, j'ai remarqué que le mois de juin de l'année 2022 est le mois le plus élevé en termes de signalements (80 639) tandis que le mois de Novembre est le plus bas (24 366 signalements). J'ai donc opter pour une analyse comparative entre ces deux mois pour répondre aux questions suivantes : 
+Pour cette première présentation j’ai décidé de travailler sur une visualisation des anomalies signalée en 2022 ce qui représente 742 480 lignes de données en fichier csv. Après avoir visualiser le corpus avec l'outil Openrefine, j'ai remarqué que le mois de juin de l'année 2022 est le mois le plus élevé en termes de signalements (80 639) tandis que le mois de Novembre est le plus bas (24 366 signalements). J'ai donc opter pour une analyse comparative entre ces deux mois pour répondre aux questions suivantes : 
 Quel est l’arrondissement de Paris qui souffre le plus d'anomalies ? Quels sont les origines de ces anomalies ? Pourquoi le nombre de signalements est aussi élevé au mois de juin et bas au mois de Novembre ?  
-J’ai commencé par récupérer les données qui m'intéressent dont : l'arrondissement, calculer le nombre total d’anomalies par arrondissement (des milliers de signalements par jour), récupérer les codes INSEE des arrondissements Parisiens à l’aide d’ une requête SPARQL. Ce qui donne les tableaux suivant : 
+J’ai commencé par récupérer les données qui m'intéresse dont : l'arrondissement, calculer le nombre total d’anomalies par arrondissement (des milliers de signalements par jour), récupérer les codes INSEE des arrondissements Parisiens à l’aide d’une requête SPARQL. Ce qui donne : 
+
+```sparql
+#Recupérer les codes INSEE des arrondissements de Paris 
+PREFIX wikibase: <http://wikiba.se/ontology#>
+PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+
+SELECT ?arrondissements ?INSEE 
+WHERE
+{
+
+?arrondissements wdt:P131 wd:Q90. #arrondissements de Paris 
+?INSEE wdt:P3295 wd:Q156705. #les codes INSEE 
+
+  SERVICE wikibase:label {
+	bd:serviceParam wikibase:language "fr,en"}
+}
+
+```
+
+
 
 **Mois de Juin** 
 <table class="tg">
@@ -239,7 +261,7 @@ J’ai commencé par récupérer les données qui m'intéressent dont : l'arrond
 > Tableau généré avec [Tables Generator](https://www.tablesgenerator.com)
 ## 2.Première datavisualisation avec une Carte (Datawrapper) 
 
-Ces tableaux sont utilisés pour générer des représentations sous forme de cartes sur Datawrapper. Le choix de cette outil se justifie par la disponibilité de la carte des arrondissments de Paris.Le but de ces 2 cartes est de montrer les anomalies signalées par arrondissements en 2022 pour le mois de Juin puis le mois de Novembre. Le code INSEE ainsi que le nombre total de signalements pour  chaque arrondissement sont les valeurs qui m’ont permis de construire cette visualisation. En cliquant sur un élément de la légende, on aperçoit à quoi ça correspond sur la carte. 
+Ces tableaux sont utilisés pour générer des représentations sous forme de cartes sur Datawrapper. Le choix de cette outil se justifie par la disponibilité de la carte des arrondissments de Paris.Le but de ces 2 cartes est de montrer les anomalies signalées par arrondissements en 2022 pour le mois de Juin puis le mois de Novembre. Le code INSEE ainsi que le nombre total de signalements pour  chaque arrondissement sont les valeurs qui m’ont permis de construire cette visualisation. 
 
 **Anomalies signalées par arrondissements en mois de Juin 2022**
 
@@ -257,7 +279,7 @@ Pour analyser ces premiers résultats je met en évidence les hypothèses suivan
 
 Si les 10ème et  11ème arrondissements de Paris ont un nombre important de signalements, c'est qu’ils sont les deux arrondissements les plus peuplés et les plus grands en superficie. 
 
-Si les 2éme, 3éme et 4ème arrondissements n’ont aucun signalement, c’est qu’ils sont les moins peuplés et les moins petits en superficie. 
+Si les 2éme, 3éme et 4ème arrondissements n’ont aucun signalement, c’est qu’ils sont les moins peuplés et les plus petits en superficie. 
 
 ## 3.Deuxième datavisualisation avec Bar Chart Race (Flourish)
 
