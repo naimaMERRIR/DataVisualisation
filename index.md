@@ -344,6 +344,24 @@ Pour répondre à la deuxième hypothèse d’après cette visualisation, les 2�
 “Si les 2éme, 3éme et 4ème arrondissements n’ont aucun signalement, c’est qu’ils sont les moins peuplés et les plus petits en superficie.”
 
 ## 4.Troisème datavisualisation : Grid of Donut Charts avec Flourish 
+| Type d'anomalie                              | Total signalements (Juin) | Total juin en % | Total signalements (Novembre) | Total Novembre en % |
+|----------------------------------------------|---------------------------|-----------------|-------------------------------|---------------------|
+| Activités   commerciales et professionnelles | 3861                      | 4,8%            | 804                           | 3,6%                |
+| Arbres,   végétaux et animaux                | 1167                      | 1,4%            | 239                           | 1,1%                |
+| Autos, motos, vélos...                       | 9221                      | 11,4%           | 2214                          | 9,8%                |
+| Eau                                          | 651                       | 0,8%            | 104                           | 0,5%                |
+| Éclairage / Électricité                      | 455                       | 0,6%            | 297                           | 1,3%                |
+| Graffitis,   tags, affiches et autocollants  | 26737                     | 33,2%           | 8226                          | 36,5%               |
+| Mobiliers urbains                            | 1861                      | 2,3%            | 540                           | 2,4%                |
+| Objets abandonnés                            | 21513                     | 26,7%           | 5788                          | 25,6%               |
+| Propreté                                     | 12549                     | 15,6%           | 3546                          | 15,7%               |
+| Voirie et espace public                      | 2624                      | 3,3%            | 808                           | 3,6%                |
+
+
+
+
+
+
 <iframe src='https://flo.uri.sh/visualisation/12721462/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:100%;height:600px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/visualisation/12721462/?utm_source=embed&utm_campaign=visualisation/12721462' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>
 
 **Analyse**
