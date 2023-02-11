@@ -285,7 +285,7 @@ Si les 2éme, 3éme et 4ème arrondissements n’ont aucun signalement, c’est 
 
 Maintenant, la question qu’il faut se poser c’est comment prouver ou rejeter ces hypothèses ? 
 
-Tout simplement, j’ai commencé par collecter des données sur la superficie et la population des arrondissements de Paris. Ces données seront croisées avec les données du corpus des signalements.OpenRefine est utilisé durant cette étape de croisement des données pour assurer la cohérence entre les données et corriger les erreurs signalé par Flourish tels que les espace en début de cellules ainsi que la suppression de colonnes tel que le code INSEE. 
+Tout simplement, j’ai commencé par collecter des données sur la superficie et la population des arrondissements de Paris (2022). Ces données seront croisées avec les données du corpus des signalements.OpenRefine est utilisé durant cette étape de croisement des données pour assurer la cohérence entre les données et corriger les erreurs signalé par Flourish tels que les espace en début de cellules ainsi que la suppression de colonnes tel que le code INSEE. 
 
 **Voici le tableau généré par OpenRefine**
 
