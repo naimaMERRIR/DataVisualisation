@@ -262,7 +262,7 @@ Maintenant, la question qu’il faut se poser c’est comment prouver ou rejeter
 
 Tout simplement, j’ai commencé par collecter des données sur la superficie et la population des arrondissements de Paris. Ces données seront croisées avec les données du corpus des signalements.OpenRefine est utilisé durant cette étape de croisement des données pour assurer la cohérence entre les données et corriger les erreurs signalé par Flourish tels que les espace en début de cellules ainsi que la suppression de colonnes tel que le code INSEE. 
 
-**Voici le tableau généré**
+**Voici le tableau généré par OpenRefine**
 
 <html>
 <head>
