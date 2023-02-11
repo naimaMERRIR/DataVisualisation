@@ -332,6 +332,7 @@ Tout simplement, j’ai commencé par collecter des données sur la superficie e
 Pour répondre à la première hypothèse d’après cette visualisation, le plus grand et le plus peuplé arrondissement de Paris est le 15ème avec une superficie de 848 hectares et une population qui s'élève à 238,190 habitants.
 Alors que le 10éme est parmi les plus petits avec une superficie de 289 hectares (la moyenne est de 434,95 hectares) et une population qui s'élève à  94,474. Même chose pour le 11ème arrondissement qui a 367 hectares mais une population un peu plus élevée que le 10éme arrondissement (155 006 habitants). Donc les 8680 signalements du mois de juin ne peuvent pas être justifiés par la superficie ni le nombre d’habitants de cet arrondissement.
 Ensuite, pour le mois de Novembre on a dit que l’arrondissement qui a le plus de signalement est le 11ème(2432 anomalies), or d'après cette visualisation cet arrondissement est loins d'être le plus grand ou le plus peuplé car il n’a que  367 hectares avec une population qui s'élève à 155,006 habitants (un peu plus élevée que celle du 10éme arrondissement). 
+
 **On conclut que l'hypothèse suivante est rejeté** : 
 
 “Si les 10ème et 11ème arrondissements de Paris ont un nombre important de signalements, c'est qu’ils sont les deux arrondissements les plus peuplés et les plus grands en superficie.”
