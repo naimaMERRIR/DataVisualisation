@@ -1,5 +1,9 @@
-## 1.Dans Ma Rue - Anomalies signalées
-En 2012, la mairie de Paris a lancé une application mobile intitulée “Dans ma rue” afin de permettre aux citoyens de  transmettre directement des anomalies depuis les rues et les jardins de Paris. L'application mobile facilite l'ajout de photos qui permettent aux équipes de terrain de mieux comprendre et traiter les anomalies transmises. Comment ça marche ? l’utilisateur remplit un formulaire pour déclarer une anomalie : nid de poule dans la chaussée, arbre en mauvais état, un jeu d’enfants abîmé, objets encombrants laissés à l’abandon, une signalisation routière défectueuse, dépôts d’encombrants ou de détritus, etc. Un nouvel onglet spécifique dans la catégorie « graffitis », permet aux Parisien·ne·s de signaler les inscriptions haineuses dans les rues de la Ville afin qu'elles soient effacées au plus vite. L’application permet en quelques clics et une photo d’informer les services gestionnaires.[DansMaRue] (https://teleservices.paris.fr/dansmarue/jsp/site/Portal.jsp?page=fodansmarue)
+## 1. Présentation du projet : Dans Ma Rue - Anomalies signalées
+En 2012, la mairie de Paris a lancé une application mobile intitulée “Dans ma rue” afin de permettre aux citoyens de  transmettre directement des anomalies depuis les rues et les jardins de Paris. L'application mobile facilite l'ajout de photos qui permettent aux équipes de terrain de mieux comprendre et traiter les anomalies transmises.
+
+Comment ça marche ?
+
+l’utilisateur remplit un formulaire pour déclarer une anomalie : nid de poule dans la chaussée, arbre en mauvais état, un jeu d’enfants abîmé, objets encombrants laissés à l’abandon, une signalisation routière défectueuse, dépôts d’encombrants ou de détritus, etc. Un nouvel onglet spécifique dans la catégorie « graffitis », permet aux Parisien·ne·s de signaler les inscriptions haineuses dans les rues de la Ville afin qu'elles soient effacées au plus vite. L’application permet en quelques clics et une photo d’informer les services gestionnaires.[DansMaRue] (https://teleservices.paris.fr/dansmarue/jsp/site/Portal.jsp?page=fodansmarue)
 L’open data de la ville de Paris  collecte des données via cette application pour les publier sous forme d’un jeu de données.La platefrome publie le corpus des anomalies signalées par les utilisateurs de cette application de 2012 à 2022.[OpenData.Paris] (https://opendata.paris.fr/explore/dataset/dans-ma-rue/information)
 
 Pour cette première présentation j’ai décidé de travailler sur une visualisation des anomalies signalée en 2022 ce qui représente 742 480 lignes de données en fichier csv. Après avoir bien visualiser le corpus avec l'outil Openrefine, j'ai remarqué que le mois de juin de l'année 2022 est le mois le plus élevé en termes de signalements (80 639) tandis que le mois de Novembre est le plus bas (24 366 signalements). J'ai donc opter pour une analyse comparative entre ces deux mois pour répondre aux questions suivantes : 
@@ -299,9 +303,8 @@ Tout simplement, j’ai commencé par collecter des données sur la superficie e
 
 **Datavisualisation avec Flourish**
 
+
 <iframe src='https://flo.uri.sh/story/1825374/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:100%;height:600px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/story/1825374/?utm_source=embed&utm_campaign=story/1825374' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>
 
+Conculision : 
 
-
-**2**
-<iframe src='https://flo.uri.sh/story/1825374/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:100%;height:600px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/story/1825374/?utm_source=embed&utm_campaign=story/1825374' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>
