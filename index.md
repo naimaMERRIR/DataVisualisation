@@ -250,12 +250,50 @@ Ces tableaux sont utilisés pour générer des représentations sous forme de ca
 **Analyse** 
 
 On constate que le 10 éme  le 11 ème  arrondissement de Paris sont à la tête du classement puisqu'en juin on retrouve 8680 signalements (10éme)  et en Novembre on retrouve 2432   signalements (11éme). En revanche, il y a aucun signalement pour les 2éme, 3éme et 4ème arrondissements. J’ai vérifié les corpus et j’ai consulté l’application mais il n'y a aucune explication à ça.
-Pour analyser ces premiers résultats je met en évidence l’hypothèse suivante : 
+Pour analyser ces premiers résultats je met en évidence les hypothèses suivantes : 
 
 Si les 10ème et  11ème arrondissements de Paris ont un nombre important de signalements, c'est qu’ils sont les deux arrondissements les plus peuplés et les plus grands en superficie. 
 
 Si les 2éme, 3éme et 4ème arrondissements n’ont aucun signalement, c’est qu’ils sont les moins peuplés et les moins petits en superficie. 
 
-Maintenant, la question qu’il faut se poser c’est comment prouver ou rejeter cette hypothèse ? 
-Tout simplement, j’ai commencé par collecter des données sur la superficie et la population des arrondissements de Paris. 
+## 3.Deuxième datavisualisation avec Bar Chart Race (Flourish)
+
+Maintenant, la question qu’il faut se poser c’est comment prouver ou rejeter ces hypothèses ? 
+
+Tout simplement, j’ai commencé par collecter des données sur la superficie et la population des arrondissements de Paris. Ces données seront croisées avec les données du corpus des signalements.OpenRefine est utilisé durant cette étape de croisement des données pour assurer la cohérence entre les données et corriger les erreurs signalé par Flourish tels que les espace en début de cellules ainsi que la suppression de colonnes tel que le code INSEE. 
+
+**Voici le tableau généré : **
+
+<html>
+<head>
+<meta charset="utf-8" />
+</head>
+<body>
+<table>
+<tr><th>﻿Arrondissements</th><th>Superficie (Hectare)</th><th>Population (Habitants)</th><th>Anomalies en Juin</th><th>Anomalies en Novembre</th></tr>
+<tr><td>Paris 1er arrondissement</td><td>183</td><td>17 100</td><td>7721</td><td>2010</td></tr>
+<tr><td>Paris 2e arrondissement</td><td>99</td><td>22 390</td><td>0</td><td>0</td></tr>
+<tr><td>Paris 3e arrondissement</td><td>117</td><td>35 991</td><td>0</td><td>0</td></tr>
+<tr><td>Paris 4e arrondissement</td><td>160</td><td>27 769</td><td>0</td><td>0</td></tr>
+<tr><td>Paris 5e arrondissement</td><td>254</td><td>60 179</td><td>1763</td><td>460</td></tr>
+<tr><td>Paris 6e arrondissement</td><td>215</td><td>43 224</td><td>1721</td><td>367</td></tr>
+<tr><td>Paris 7e arrondissement</td><td>409</td><td>57 092</td><td>1201</td><td>245</td></tr>
+<tr><td>Paris 8e arrondissement</td><td>388</td><td>38 749</td><td>1722</td><td>508</td></tr>
+<tr><td>Paris 9e arrondissement</td><td>218</td><td>59 474</td><td>3647</td><td>1451</td></tr>
+<tr><td>Paris 10e arrondissement</td><td>289</td><td>94 474</td><td>8680</td><td>1985</td></tr>
+<tr><td>Paris 11e arrondissement</td><td>367</td><td>155 006</td><td>7142</td><td>2432</td></tr>
+<tr><td>Paris 12e arrondissement</td><td>637</td><td>144 925</td><td>4185</td><td>1348</td></tr>
+<tr><td>Paris 13e arrondissement</td><td>715</td><td>182 386</td><td>4063</td><td>1224</td></tr>
+<tr><td>Paris 14e arrondissement</td><td>564</td><td>141 102</td><td>2353</td><td>681</td></tr>
+<tr><td>Paris 15e arrondissement</td><td>848</td><td>238 190</td><td>6555</td><td>2003</td></tr>
+<tr><td>Paris 16e arrondissement</td><td>791</td><td>167 613</td><td>3718</td><td>1431</td></tr>
+<tr><td>Paris 17e arrondissement</td><td>567</td><td>170 156</td><td>6816</td><td>2032</td></tr>
+<tr><td>Paris 18e arrondissement</td><td>601</td><td>201 374</td><td>6931</td><td>1875</td></tr>
+<tr><td>Paris 19e arrondissement</td><td>679</td><td>186 116</td><td>5260</td><td>2118</td></tr>
+<tr><td>Paris 20e arrondissement</td><td>598</td><td>197 311</td><td>7161</td><td>2196</td></tr>
+</table>
+</body>
+</html>
+
+
 
