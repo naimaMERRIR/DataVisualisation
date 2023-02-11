@@ -281,7 +281,7 @@ Si les 10ème et  11ème arrondissements de Paris ont un nombre important de sig
 
 Si les 2éme, 3éme et 4ème arrondissements n’ont aucun signalement, c’est qu’ils sont les moins peuplés et les plus petits en superficie. 
 
-## 3.Deuxième datavisualisation avec Bar Chart Race (Flourish)
+## 3.Deuxième datavisualisation avec Bar Chart Race (Flourish) en story 
 
 Maintenant, la question qu’il faut se poser c’est comment prouver ou rejeter ces hypothèses ? 
 
@@ -327,5 +327,19 @@ Tout simplement, j’ai commencé par collecter des données sur la superficie e
 
 <iframe src='https://flo.uri.sh/story/1825374/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:100%;height:600px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/story/1825374/?utm_source=embed&utm_campaign=story/1825374' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>
 
-Conculision : 
+**Conculision** :
+
+Pour répondre à la première hypothèse d’après cette visualisation, le plus grand et le plus peuplé arrondissement de Paris est le 15ème avec une superficie de 848 hectares et une population qui s'élève à 238,190 habitants.
+Alors que le 10éme est parmi les plus petits avec une superficie de 289 hectares (la moyenne est de 434,95 hectares) et une population qui s'élève à  94,474. Même chose pour le 11ème arrondissement qui a 367 hectares mais une population un peu plus élevée que le 10éme arrondissement (155 006 habitants). Donc les 8680 signalements du mois de juin ne peuvent pas être justifiés par la superficie ni le nombre d’habitants de cet arrondissement.
+Ensuite, pour le mois de Novembre on a dit que l’arrondissement qui a le plus de signalement est le 11ème(2432 anomalies), or d'après cette visualisation cet arrondissement est loins d'être le plus grand ou le plus peuplé car il n’a que  367 hectares avec une population qui s'élève à 155,006 habitants (un peu plus élevée que celle du 10éme arrondissement). 
+**On conclut que l'hypothèse suivante est rejeté** : 
+
+“Si les 10ème et 11ème arrondissements de Paris ont un nombre important de signalements, c'est qu’ils sont les deux arrondissements les plus peuplés et les plus grands en superficie.”
+
+Pour répondre à la deuxième hypothèse d’après cette visualisation, les 2éme, 3éme et 4ème arrondissements de Paris sont bien les plus petits en superficie et les moins peuplés puisqu’en première position on a le 2éme arrondissement : 99 hectares, 22,390 habitants.Ensuite,le 3éme arrondissement : 117 hectares, 35,991 habitants. Enfin, le 4ème arrondissement : 160 hectares, 27,769 habitants.Pour rappel, le nombre d’anomalies signalées pour ces 3 arrondissements est de zéro. 
+
+**On conclut que l'hypothèse suivant peut être vrai** : 
+
+“Si les 2éme, 3éme et 4ème arrondissements n’ont aucun signalement, c’est qu’ils sont les moins peuplés et les plus petits en superficie.”
+
 
