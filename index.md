@@ -344,6 +344,12 @@ Pour répondre à la deuxième hypothèse d’après cette visualisation, les 2�
 “Si les 2éme, 3éme et 4ème arrondissements n’ont aucun signalement, c’est qu’ils sont les moins peuplés et les plus petits en superficie.”
 
 ## 4.Troisème datavisualisation : Grid of Donut Charts avec Flourish 
+
+Cette visualisation réalisée sous forme de Donut nous permet de  visualiser les types d’anomalies signalées en mois de Juin et en mois de Novembre. Pour la réaliser, j’ai récupéré le champ : type d’anomalie et j’ai calculé le total d’anomalie pour chaque type pour les deux mois (Juin et Novembre). Ce qui donne le tableau suivant : 
+
+**a.Tableau** 
+
+
 | Type d'anomalie                              | Total signalements (Juin) | Total juin en % | Total signalements (Novembre) | Total Novembre en % |
 |----------------------------------------------|---------------------------|-----------------|-------------------------------|---------------------|
 | Activités   commerciales et professionnelles | 3861                      | 4,8%            | 804                           | 3,6%                |
@@ -357,12 +363,15 @@ Pour répondre à la deuxième hypothèse d’après cette visualisation, les 2�
 | Propreté                                     | 12549                     | 15,6%           | 3546                          | 15,7%               |
 | Voirie et espace public                      | 2624                      | 3,3%            | 808                           | 3,6%                |
 
+> Tableau généré avec [Tables Generator](https://www.tablesgenerator.com)
 
 
 
-
+**b.Grid of Donut Charts**
 
 <iframe src='https://flo.uri.sh/visualisation/12721462/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:100%;height:600px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/visualisation/12721462/?utm_source=embed&utm_campaign=visualisation/12721462' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>
 
 **Analyse**
+
+
 Cette visualisation réalisée sous forme de Donut nous permet de  visualiser les types d’anomalies signalées en mois de Juin et en mois de Novembre. On constate que les utilisateurs de l’application “Dans ma rue” signalent beaucoup les graffitis, tags, affiches et autocollants. Ce qui représente 36,5% des anomalies signalées au mois de Novembre et 33,2% des anomalies signalées pour le mois de juin. 
