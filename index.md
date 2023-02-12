@@ -301,7 +301,7 @@ Si les 10ème et  11ème arrondissements de Paris ont un nombre important de sig
 
 Si les 2éme, 3éme et 4ème arrondissements n’ont aucun signalement, c’est qu’ils sont les moins peuplés et les plus petits en superficie. 
 
-## 3.Deuxième datavisualisation avec Bar Chart Race (Flourish story)<a name="Jeudedonnees"></a>
+## 3.Deuxième datavisualisation avec Bar Chart Race (Flourish story)<a name="story"></a>
 
 Maintenant, la question qu’il faut se poser c’est comment prouver ou rejeter ces hypothèses ? 
 
