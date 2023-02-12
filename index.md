@@ -403,7 +403,7 @@ On constate que les utilisateurs de l’application “Dans ma rue” signalent 
 
 ## 5.Quatriéme datavisualisation avec Datawrapper :<a name="resolution"></a>
 
-Les anomalies résolu et non résolu
+**Les anomalies résolu et non résolu**
 
 Après avoir  visionner et représenter les données du mois de juin et Novembre de l’année 2022. Il était temps de revoir le corpus dans sa globalité et se poser la question suivante : Est ce que toutes ces anomalies signalées par les utilisateurs de cette application ont été résolues ou pas ? 
 Pour répondre à cette question, je me suis appuyé sur le jeu de données de 2022 mais plus précisément les champs : type d'anomalie et intervenant. J’ai  calculé le nombre total d’interventions pour chaque anomalie et j’ai considéré que là ou il n y a pas le nom de l'intervenant champ vide) égale à une non résolution de l’anomalie. Ceci peut être faux parce que par exemple le nom de l'intervenant n’a pas encore été saisi,  comme ça peut être vrai. Je suis partie de l'idée que le jeu de données en question est mis à jour quotidiennement comme indiqué dans la barre d’information de l’open data de Paris donc les champs vides signifient qu’il y a pas eu d'intervention pour résoudre le problème. D’autant plus que c'est des signalements de 2022 et non 2023. Ce qui donne le tableau suivant : 
@@ -431,11 +431,14 @@ Pour répondre à cette question, je me suis appuyé sur le jeu de données de 2
 </html>
 
 
+**Graphe**
 
 <iframe title="Les anomalies résolu et non résolu année 2022 " aria-label="Tracé de la série" id="datawrapper-chart-vryof" src="https://datawrapper.dwcdn.net/vryof/1/" scrolling="no" frameborder="0" style="border: none;" width="600" height="292" data-external="1"></iframe>
 
+**Analyse**
 
 
+Le nombre total de signalements pour l’année 2022 est de 80639. On constate que la plupart des anomalies ont été résolu sauf pour : Arbres, végétaux et animaux 1018 d’anomalies ont été traité et 149 anomalies n’ont pas été traité. On conclut que l’application est une bonne initiative, cependant 
 
 
 ##6.Conclusion : <a name="conclusion"></a>
