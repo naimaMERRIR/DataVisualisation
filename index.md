@@ -28,7 +28,7 @@ L’open data de Paris collecte des données via cette application et les publie
 [OpenData.Paris] (https://opendata.paris.fr/explore/dataset/dans-ma-rue/information)
 
 Pour cette première présentation j’ai décidé de travailler sur une visualisation des anomalies signalée en 2022 ce qui représente 742 480 lignes de données en fichier csv. La manipulation d’un fichier de telle taille avec des outils gratuits accessible par tout le monde est une mission très difficile. Après avoir visualiser le corpus avec l'outil Openrefine, j'ai remarqué que le mois de juin de l'année 2022 est le mois le plus élevé en termes de signalements (80 639) tandis que le mois de Novembre est le plus bas (24 366 signalements). J'ai donc opter pour une analyse comparative entre ces deux mois et les questions qui me sont venue en  tête sont les  suivantes : 
-Quels sont les arrondissements de Paris qui souffrent le plus d'anomalies ? De quelles types sont ces anomalies ? Pourquoi le nombre de signalements est aussi élevé au mois de juin et bas au mois de Novembre ?  
+Quels sont les arrondissements de Paris qui souffrent le plus d'anomalies ? De quelles types sont ces anomalies ?   
 
 ## 2.Première datavisualisation avec une Carte (Datawrapper)<a name="Datawrapper"></a>
 
@@ -517,4 +517,14 @@ Le nombre total de signalements pour l’année 2022 est de 80639. On constate q
 ![2023-02-12 15_35_30-DansMaRue - Paris dans l’App Store](https://user-images.githubusercontent.com/122401240/218317752-5d8592ab-09c4-4d93-af78-c1cb0405f9bc.png)
 
 
-##6.Conclusion : <a name="conclusion"></a>
+#6.Conclusion : <a name="conclusion"></a>
+
+J’ai choisi ce thème car je trouve que l’application “Dans ma rue” est d’une grande utilité pour les habitants de Paris. Je pense que tout le monde rêve d’avoir la même application dans sa propre ville. Quand j’ai vu le jeu de données sur l’open data de Paris, j’ai trouvé que le corpus est très bien réalisé, mis à jour et surtout exportable. Cependant, je ne savais pas qu'est ce que je dois présenter de nouveau puisque la plateforme donne déjà des visualisations toutes prêtes.  C’est pour ça que j’ai préféré travailler sur une étude comparative entre les deux mois (Juin et Novembre).  
+
+Le processus du  data wrangling , parfois appelé data munging m’a aidé à me poser les bonnes questions et à adapter les données brutes à mes besoins pour pouvoir les transformer par la suite à des visualisations. Ben Schneiderman a dit : « La datavisualisation vous donne des réponses à des questions que vous ne saviez pas que vous aviez. » L’objectif principal est de transformer les données en informations, et les informations en connaissances. Grâce à ce projet, je n’ai plus peur des tableaux ni des masses d’informations. Les outils aident énormément dans la visualisation mais il ne faut pas oublier que le plus important est l’histoire qu’on veut raconter à travers ces visualisations. 
+
+*« L’un des aspects les plus difficiles de la datavisualisation est que l’histoire que vous devez raconter est souvent complexe, dynamique et multidimensionnelle. Cependant, les outils standard dont nous disposons sont plats, statiques et conçus pour le papier. Ainsi, décomposer la nature dynamique de la narration intégrée à vos données dans un format de storyboard est l’un des meilleurs moyens de s’assurer que vos points clés sont effectivement reçus par votre public cible.»* – Thomas Rhodes
+
+Pour conclure ce projet, je trouve que je n’ai pas eu de grandes difficultés puisque vous avez mis à notre disposition tous les outils et informations nécessaires à la réussite de ce projet mais je tiens à signaler que les résultats retournés par wikidata ne sont pas très précis. Je demande les arrondissements de Paris, j'obtiens ceux de Paris et Lyon malgré plusieurs tentatives et essais de différents  P et Q. Ensuite, je tiens à préciser que cette page ne souligne pas les fautes d'orthographe donc j'espère ne pas avoir commis trop de fautes. De plus, il est nécessaire d’adapter les données à chaque application pour les visualiser ce qui prend beaucoup de temps. Enfin, la documentation que j’ai consultée pour apprendre le nouveau langage (Markdown) pour construire une page n’est pas très riche. 
+  
+
