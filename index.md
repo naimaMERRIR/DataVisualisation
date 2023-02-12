@@ -36,23 +36,25 @@ J’ai commencé par récupérer les données qui m'intéresse dont : l'arrondis
 
 ```sparql
 #Recupérer les codes INSEE des arrondissements de Paris 
+
+PREFIX bd: <http://www.bigdata.com/rdf#>
 PREFIX wikibase: <http://wikiba.se/ontology#>
 PREFIX wd: <http://www.wikidata.org/entity/>
 PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+SELECT DISTINCT ?arrondissementLabel  ?insee
+WHERE {
+  ?arrondissement wdt:P31 wd:Q702842. #arrondissement de paris
+  ?arrondissement wdt:P374  ?insee. # insee code
+  
 
-SELECT ?arrondissements ?INSEE 
-WHERE
-{
-
-?arrondissements wdt:P131 wd:Q90. #arrondissements de Paris 
-?INSEE wdt:P3295 wd:Q156705. #les codes INSEE 
-
-  SERVICE wikibase:label {
-	bd:serviceParam wikibase:language "fr,en"}
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "fr,en". }
 }
 
 ```
+**Résultat**
 
+
+<iframe style="width: 80vw; height: 50vh; border: none;" src="https://query.wikidata.org/embed.html#PREFIX%20bd%3A%20%3Chttp%3A%2F%2Fwww.bigdata.com%2Frdf%23%3E%0APREFIX%20wikibase%3A%20%3Chttp%3A%2F%2Fwikiba.se%2Fontology%23%3E%0APREFIX%20wd%3A%20%3Chttp%3A%2F%2Fwww.wikidata.org%2Fentity%2F%3E%0APREFIX%20wdt%3A%20%3Chttp%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2F%3E%0ASELECT%20DISTINCT%20%3FarrondissementLabel%20%20%3Finsee%0AWHERE%20%7B%0A%20%20%3Farrondissement%20wdt%3AP31%20wd%3AQ702842.%20%23arrondissement%20de%20paris%0A%20%20%3Farrondissement%20wdt%3AP374%20%20%3Finsee.%20%23%20insee%20code%0A%20%20%0A%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22fr%2Cen%22.%20%7D%0A%7D%0A" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups"></iframe>
 
 
 **Mois de Juin** 
@@ -346,7 +348,12 @@ WHERE {
 ```
 
 
+
+
+**Résultat**
+
 <iframe style="width: 80vw; height: 50vh; border: none;" src="https://query.wikidata.org/embed.html#PREFIX%20bd%3A%20%3Chttp%3A%2F%2Fwww.bigdata.com%2Frdf%23%3E%0APREFIX%20wikibase%3A%20%3Chttp%3A%2F%2Fwikiba.se%2Fontology%23%3E%0APREFIX%20wd%3A%20%3Chttp%3A%2F%2Fwww.wikidata.org%2Fentity%2F%3E%0APREFIX%20wdt%3A%20%3Chttp%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2F%3E%0ASELECT%20DISTINCT%20%3FarrondissementLabel%20%3Fpopulation%20%3Fsuperficie%0AWHERE%20%7B%0A%20%20%3Farrondissement%20wdt%3AP31%20wd%3AQ702842.%20%23arrondissement%20de%20paris%0A%20%20%3Farrondissement%20wdt%3AP1082%20%20%3Fpopulation.%20%23%20population%20(P1082)%0A%20%20%3Farrondissement%20wdt%3AP2046%20%3Fsuperficie%20.%20%23superficie%0A%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22fr%2Cen%22.%20%7D%0A%7D" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups"></iframe>
+
 
 
 
@@ -384,7 +391,7 @@ WHERE {
 </body>
 </html>
 
-[vikidia](https://fr.vikidia.org/wiki/Arrondissements_de_Paris)
+la population pour l'année 2022 est extraite de  [vikidia](https://fr.vikidia.org/wiki/Arrondissements_de_Paris)
 
 **Datavisualisation avec Flourish**
 
