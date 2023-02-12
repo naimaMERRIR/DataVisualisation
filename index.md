@@ -361,7 +361,20 @@ Tout simplement, j’ai commencé par collecter des données sur la superficie e
 
 <iframe src='https://flo.uri.sh/story/1825374/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:100%;height:600px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/story/1825374/?utm_source=embed&utm_campaign=story/1825374' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>
 
-**Conculision** :
+
+![flourish_story_2](https://user-images.githubusercontent.com/122401240/218318639-dda60ca6-4e71-4f17-ad5a-61e8a37ebb39.png)
+
+
+
+
+
+![Flourish_story_1](https://user-images.githubusercontent.com/122401240/218318660-fe8cba07-2e79-48df-b578-1b8c7daa2f25.png)
+
+
+
+
+
+**Conculusion** :
 
 Pour répondre à la première hypothèse d’après cette visualisation, le plus grand et le plus peuplé arrondissement de Paris est le 15ème avec une superficie de 848 hectares et une population qui s'élève à 238,190 habitants.
 Alors que le 10éme est parmi les plus petits avec une superficie de 289 hectares (la moyenne est de 434,95 hectares) et une population qui s'élève à  94,474. Même chose pour le 11ème arrondissement qui a 367 hectares mais une population un peu plus élevée que le 10éme arrondissement (155 006 habitants). Donc les 8680 signalements du mois de juin ne peuvent pas être justifiés par la superficie ni le nombre d’habitants de cet arrondissement.
