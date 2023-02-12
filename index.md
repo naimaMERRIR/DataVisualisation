@@ -438,7 +438,7 @@ Pour répondre à cette question, je me suis appuyé sur le jeu de données de 2
 **Analyse**
 
 
-Le nombre total de signalements pour l’année 2022 est de 80639. On constate que la plupart des anomalies ont été résolu sauf pour : Arbres, végétaux et animaux 1018 d’anomalies ont été traité et 149 anomalies n’ont pas été traité. On conclut que l’application est une bonne initiative, cependant 
+Le nombre total de signalements pour l’année 2022 est de 80639. On constate que la plupart des anomalies ont été résolu sauf pour : Arbres, végétaux et animaux 1018 d’anomalies ont été traité et 149 anomalies n’ont pas été traité. On conclut que l’application est une bonne initiative, cependant d'après les commentaires sur Internet certaines anomalies ont été clôturées et signalées comme résolues malgrés qu'elles ne soient pas réellement résolues sur le terrain. Voici un exemple de commentaire sur Google.
 
 ![2023-02-12 15_35_30-DansMaRue - Paris dans l’App Store](https://user-images.githubusercontent.com/122401240/218317752-5d8592ab-09c4-4d93-af78-c1cb0405f9bc.png)
 
