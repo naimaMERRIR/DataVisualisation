@@ -293,12 +293,8 @@ Ces tableaux sont utilisés pour générer des représentations sous forme de ca
 **Anomalies signalées par arrondissements en mois de Juin 2022**
 
 
+
 <iframe title="Anomalies signalées par arrondissements en 2022 " aria-label="Map" id="datawrapper-chart-FytoW" src="https://datawrapper.dwcdn.net/FytoW/2/" scrolling="no" frameborder="0" style="border: none;" width="600" height="444" data-external="1"></iframe>
-
-
-
-
-![nombre](https://user-images.githubusercontent.com/122401240/218318466-aec104b5-9eb2-4c8f-8cfe-354677f0edb4.png)
 
 
 
@@ -311,9 +307,7 @@ Ces tableaux sont utilisés pour générer des représentations sous forme de ca
 
 
 
-![nov](https://user-images.githubusercontent.com/122401240/218318495-260e8451-e48b-4f9c-9b07-f9eae5d34b86.png)
 
-Ceci est une capture d'écran, veillez visualiser avec le lien inframe. 
 
 
 
@@ -400,19 +394,6 @@ la population pour l'année 2022 est extraite de  [vikidia](https://fr.vikidia.o
 
 
 
-![flourish_story_2](https://user-images.githubusercontent.com/122401240/218318639-dda60ca6-4e71-4f17-ad5a-61e8a37ebb39.png)
-
-Ceci est une capture d'écran, veillez visualiser avec le lien inframe. 
-
-
-
-
-
-![Flourish_story_1](https://user-images.githubusercontent.com/122401240/218318660-fe8cba07-2e79-48df-b578-1b8c7daa2f25.png)
-
-Ceci est une capture d'écran, veillez visualiser avec le lien inframe. 
-
-
 **Conculusion** :
 
 Pour répondre à la première hypothèse d’après cette visualisation, le plus grand et le plus peuplé arrondissement de Paris est le 15ème avec une superficie de 848 hectares et une population qui s'élève à 238,190 habitants.
@@ -459,9 +440,6 @@ Cette visualisation réalisée sous forme de Donut nous permet de  visualiser le
 <iframe src='https://flo.uri.sh/visualisation/12721462/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:100%;height:600px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/visualisation/12721462/?utm_source=embed&utm_campaign=visualisation/12721462' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>
 
 
-![flourish com](https://user-images.githubusercontent.com/122401240/218318725-d4ea82a8-237c-4899-b8f2-84f534889c64.png)
-
-Ceci est une capture d'écran, veillez visualiser avec le lien inframe. 
 
 **c.Analyse**
 
@@ -503,9 +481,7 @@ Pour répondre à cette question, je me suis appuyé sur le jeu de données de 2
 <iframe title="Les anomalies résolu et non résolu année 2022 " aria-label="Tracé de la série" id="datawrapper-chart-vryof" src="https://datawrapper.dwcdn.net/vryof/1/" scrolling="no" frameborder="0" style="border: none;" width="600" height="292" data-external="1"></iframe>
 
 
-![2023-02-12 15_48_45-Les anomalies résolu et non résolu année 2022 nbsp; -  vryof  - Visualize - Data](https://user-images.githubusercontent.com/122401240/218318316-d70c6e4d-ec8e-480d-ae6c-625dbd6c5f31.png)
-
-Ceci est une capture d'écran, veillez visualiser avec le lien inframe. 
+ 
 
 
 
