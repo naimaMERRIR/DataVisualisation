@@ -1,9 +1,14 @@
+# Dans Ma Rue - Anomalies signalées dans les arrondissements de Paris 
+
+![Anomalie sur l'espace public](https://www.leparisien.fr/resizer/gNLMMqzyYqQ3bg4ZKr-BPuYCUL0=/932x582/arc-anglerfish-eu-central-1-prod-leparisien.s3.amazonaws.com/public/NV6GDD5ARUDRYB2GRX234I2BTM.jpg)
+
 ## Sommaire
 1. [Présentation du projet : Dans Ma Rue - Anomalies signalées](#Jeudedonnees)
 2. [Première datavisualisation avec une Carte (Datawrapper)](#Datawrapper)
 3. [Deuxième datavisualisation avec Bar Chart Race (Flourish story)](#story)
 4. [Troisème datavisualisation : Grid of Donut Charts avec Flourish](#Donut)
-5. [Conclusion](#conclusion)
+5. [Quatriéme datavisualisation avec Datawrapper ](#resolution)
+6. [Conclusion](#conclusion)
 
 
 
@@ -22,7 +27,7 @@ Comment ça marche ? l’utilisateur remplit un formulaire pour déclarer une an
 L’open data de Paris collecte des données via cette application et les publie sous forme de jeux de données depuis 2012 à 2022.
 [OpenData.Paris] (https://opendata.paris.fr/explore/dataset/dans-ma-rue/information)
 
-Pour cette première présentation j’ai décidé de travailler sur une visualisation des anomalies signalée en 2022 ce qui représente 742 480 lignes de données en fichier csv. La manipulation d’un fichier de telle taille avec des outils gratuits accessible par tout le monde est une mission très difficile. Après avoir visualiser le corpus avec l'outil Openrefine, j'ai remarqué que le mois de juin de l'année 2022 est le mois le plus élevé en termes de signalements (80 639) tandis que le mois de Novembre est le plus bas (24 366 signalements). J'ai donc opter pour une analyse comparative entre ces deux mois pour répondre aux questions suivantes : 
+Pour cette première présentation j’ai décidé de travailler sur une visualisation des anomalies signalée en 2022 ce qui représente 742 480 lignes de données en fichier csv. La manipulation d’un fichier de telle taille avec des outils gratuits accessible par tout le monde est une mission très difficile. Après avoir visualiser le corpus avec l'outil Openrefine, j'ai remarqué que le mois de juin de l'année 2022 est le mois le plus élevé en termes de signalements (80 639) tandis que le mois de Novembre est le plus bas (24 366 signalements). J'ai donc opter pour une analyse comparative entre ces deux mois et les questions qui me sont venue en  tête sont les  suivantes : 
 Quels sont les arrondissements de Paris qui souffrent le plus d'anomalies ? De quelles types sont ces anomalies ? Pourquoi le nombre de signalements est aussi élevé au mois de juin et bas au mois de Novembre ?  
 
 ## 2.Première datavisualisation avec une Carte (Datawrapper)<a name="Datawrapper"></a>
@@ -396,6 +401,41 @@ Cette visualisation réalisée sous forme de Donut nous permet de  visualiser le
 
 On constate que les utilisateurs de l’application “Dans ma rue” signalent beaucoup les graffitis, tags, affiches et autocollants. Ce qui représente 36,5% des anomalies signalées au mois de Novembre et 33,2% des anomalies signalées pour le mois de juin. Finalement, l'ajout de cette option dans l'applicaion est très utile.   
 
-## 4.Conclusion :<a name="conclusion"></a>
+## 5.Quatriéme datavisualisation avec Datawrapper :<a name="resolution"></a>
+
+Les anomalies résolu et non résolu
+
+Après avoir  visionner et représenter les données du mois de juin et Novembre de l’année 2022. Il était temps de revoir le corpus dans sa globalité et se poser la question suivante : Est ce que toutes ces anomalies signalées par les utilisateurs de cette application ont été résolues ou pas ? 
+Pour répondre à cette question, je me suis appuyé sur le jeu de données de 2022 mais plus précisément les champs : type d'anomalie et intervenant. J’ai  calculé le nombre total d’interventions pour chaque anomalie et j’ai considéré que là ou il n y a pas le nom de l'intervenant champ vide) égale à une non résolution de l’anomalie. Ceci peut être faux parce que par exemple le nom de l'intervenant n’a pas encore été saisi,  comme ça peut être vrai. Je suis partie de l'idée que le jeu de données en question est mis à jour quotidiennement comme indiqué dans la barre d’information de l’open data de Paris donc les champs vides signifient qu’il y a pas eu d'intervention pour résoudre le problème. D’autant plus que c'est des signalements de 2022 et non 2023. Ce qui donne le tableau suivant : 
+
+<html>
+<head>
+<title>anomalies resolu xlsx</title>
+<meta charset="utf-8" />
+</head>
+<body>
+<table>
+<tr><th>Anomalie</th><th>Résolu</th><th>Non résolu</th></tr>
+<tr><td>Arbres, végétaux et animaux</td><td>1018.0</td><td>149.0</td></tr>
+<tr><td>Activités commerciales et professionnelles</td><td>3861.0</td><td>0.0</td></tr>
+<tr><td>Autos, motos, vélos...</td><td>9221.0</td><td>0.0</td></tr>
+<tr><td>Eau</td><td>651.0</td><td>0.0</td></tr>
+<tr><td>Éclairage / Électricité</td><td>455.0</td><td>0.0</td></tr>
+<tr><td>Graffitis, tags, affiches et autocollants</td><td>26737.0</td><td>0.0</td></tr>
+<tr><td>Mobiliers urbains</td><td>1861.0</td><td>0.0</td></tr>
+<tr><td>Objets abandonnés</td><td>21513.0</td><td>0.0</td></tr>
+<tr><td>Propreté</td><td>12549.0</td><td>0.0</td></tr>
+<tr><td>Voirie et espace public</td><td>2624.0</td><td>0.0</td></tr>
+</table>
+</body>
+</html>
 
 
+
+<iframe title="Les anomalies résolu et non résolu année 2022 " aria-label="Tracé de la série" id="datawrapper-chart-vryof" src="https://datawrapper.dwcdn.net/vryof/1/" scrolling="no" frameborder="0" style="border: none;" width="600" height="292" data-external="1"></iframe>
+
+
+
+
+
+##6.Conclusion : <a name="conclusion"></a>
