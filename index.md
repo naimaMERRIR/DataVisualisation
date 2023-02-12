@@ -1,4 +1,19 @@
-## 1. Présentation du projet : Dans Ma Rue - Anomalies signalées
+## Sommaire
+1. [Présentation du projet : Dans Ma Rue - Anomalies signalées](#Jeudedonnees)
+2. [Première datavisualisation avec une Carte (Datawrapper)](#Datawrapper)
+3. [Deuxième datavisualisation avec Bar Chart Race (Flourish story)](#story)
+4. [Troisème datavisualisation : Grid of Donut Charts avec Flourish](#Donut)
+5. [Conclusion](#conclusion)
+
+
+
+
+
+
+
+
+
+## 1. Présentation du projet : Dans Ma Rue - Anomalies signalées<a name="Jeudedonnees"></a>
 
 En 2012, la mairie de Paris a lancé une application mobile intitulée “Dans ma rue” afin de permettre aux citoyens de  transmettre directement des anomalies depuis les rues et les jardins de Paris. L'application mobile facilite l'ajout de photos qui permettent aux équipes de terrain de mieux comprendre et traiter les anomalies transmises.
 
@@ -10,7 +25,7 @@ L’open data de Paris collecte des données via cette application et les publie
 Pour cette première présentation j’ai décidé de travailler sur une visualisation des anomalies signalée en 2022 ce qui représente 742 480 lignes de données en fichier csv. La manipulation d’un fichier de telle taille avec des outils gratuits accessible par tout le monde est une mission très difficile. Après avoir visualiser le corpus avec l'outil Openrefine, j'ai remarqué que le mois de juin de l'année 2022 est le mois le plus élevé en termes de signalements (80 639) tandis que le mois de Novembre est le plus bas (24 366 signalements). J'ai donc opter pour une analyse comparative entre ces deux mois pour répondre aux questions suivantes : 
 Quels sont les arrondissements de Paris qui souffrent le plus d'anomalies ? De quelles types sont ces anomalies ? Pourquoi le nombre de signalements est aussi élevé au mois de juin et bas au mois de Novembre ?  
 
-## 2.Première datavisualisation avec une Carte (Datawrapper) 
+## 2.Première datavisualisation avec une Carte (Datawrapper)<a name="Datawrapper"></a>
 
 J’ai commencé par récupérer les données qui m'intéresse dont : l'arrondissement, calculer le nombre total d’anomalies par arrondissement (des milliers de signalements par jour), récupérer les codes INSEE des arrondissements Parisiens à l’aide d’une requête SPARQL. Ce qui donne : 
 
@@ -286,7 +301,7 @@ Si les 10ème et  11ème arrondissements de Paris ont un nombre important de sig
 
 Si les 2éme, 3éme et 4ème arrondissements n’ont aucun signalement, c’est qu’ils sont les moins peuplés et les plus petits en superficie. 
 
-## 3.Deuxième datavisualisation avec Bar Chart Race (Flourish) en story 
+## 3.Deuxième datavisualisation avec Bar Chart Race (Flourish story)<a name="Jeudedonnees"></a>
 
 Maintenant, la question qu’il faut se poser c’est comment prouver ou rejeter ces hypothèses ? 
 
@@ -348,7 +363,7 @@ Pour répondre à la deuxième hypothèse d’après cette visualisation, les 2�
 
 “Si les 2éme, 3éme et 4ème arrondissements n’ont aucun signalement, c’est qu’ils sont les moins peuplés et les plus petits en superficie.”
 
-## 4.Troisème datavisualisation : Grid of Donut Charts avec Flourish 
+## 4.Troisème datavisualisation : Grid of Donut Charts avec Flourish<a name="Donut"></a>
 
 Cette visualisation réalisée sous forme de Donut nous permet de  visualiser les types d’anomalies signalées en mois de Juin et en mois de Novembre. Pour la réaliser, j’ai récupéré le champ : type d’anomalie et j’ai calculé le total d’anomalie pour chaque type pour les deux mois (Juin et Novembre). Ce qui donne le tableau suivant : 
 
@@ -380,3 +395,7 @@ Cette visualisation réalisée sous forme de Donut nous permet de  visualiser le
 
 
 On constate que les utilisateurs de l’application “Dans ma rue” signalent beaucoup les graffitis, tags, affiches et autocollants. Ce qui représente 36,5% des anomalies signalées au mois de Novembre et 33,2% des anomalies signalées pour le mois de juin. Finalement, l'ajout de cette option dans l'applicaion est très utile.   
+
+## 4.Conclusion :<a name="conclusion"></a>
+
+
