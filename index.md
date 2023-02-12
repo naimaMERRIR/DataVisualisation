@@ -433,6 +433,9 @@ Pour répondre à cette question, je me suis appuyé sur le jeu de données de 2
 
 **Graphe**
 
+
+![2023-02-12 15_48_45-Les anomalies résolu et non résolu année 2022 nbsp; -  vryof  - Visualize - Data](https://user-images.githubusercontent.com/122401240/218318316-d70c6e4d-ec8e-480d-ae6c-625dbd6c5f31.png)
+
 <iframe title="Les anomalies résolu et non résolu année 2022 " aria-label="Tracé de la série" id="datawrapper-chart-vryof" src="https://datawrapper.dwcdn.net/vryof/1/" scrolling="no" frameborder="0" style="border: none;" width="600" height="292" data-external="1"></iframe>
 
 **Analyse**
