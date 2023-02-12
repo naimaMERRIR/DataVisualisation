@@ -328,7 +328,28 @@ Si les 2éme, 3éme et 4ème arrondissements n’ont aucun signalement, c’est 
 
 Maintenant, la question qu’il faut se poser c’est comment prouver ou rejeter ces hypothèses ? 
 
-Tout simplement, j’ai commencé par collecter des données sur la superficie et la population des arrondissements de Paris (2022). Ces données seront croisées avec les données du corpus des signalements. OpenRefine est utilisé durant cette étape de croisement des données pour assurer la cohérence entre les données et corriger les erreurs signalé par Flourish tels que les espace en début de cellules, la suppression de colonnes tel que le code INSEE, effectuer plusieurs modifications en un seul passage,comparer les valeurs de 2 colonnes,etc. 
+Tout simplement, j’ai commencé par collecter des données sur la superficie et la population des arrondissements de Paris (2022) grâce à une requête Sparql . Ces données seront croisées avec les données du corpus des signalements. OpenRefine est utilisé durant cette étape de croisement des données pour assurer la cohérence entre les données et corriger les erreurs signalé par Flourish tels que les espace en début de cellules, la suppression de colonnes tel que le code INSEE, effectuer plusieurs modifications en un seul passage,comparer les valeurs de 2 colonnes,etc. 
+
+```sparql
+PREFIX bd: <http://www.bigdata.com/rdf#>
+PREFIX wikibase: <http://wikiba.se/ontology#>
+PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+SELECT DISTINCT ?arrondissementLabel ?population ?superficie
+WHERE {
+  ?arrondissement wdt:P31 wd:Q702842. #arrondissement de paris
+  ?arrondissement wdt:P1082  ?population. # population (P1082)
+  ?arrondissement wdt:P2046 ?superficie . #superficie
+
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "fr,en". }
+}
+```
+
+
+<iframe style="width: 80vw; height: 50vh; border: none;" src="https://query.wikidata.org/embed.html#PREFIX%20bd%3A%20%3Chttp%3A%2F%2Fwww.bigdata.com%2Frdf%23%3E%0APREFIX%20wikibase%3A%20%3Chttp%3A%2F%2Fwikiba.se%2Fontology%23%3E%0APREFIX%20wd%3A%20%3Chttp%3A%2F%2Fwww.wikidata.org%2Fentity%2F%3E%0APREFIX%20wdt%3A%20%3Chttp%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2F%3E%0ASELECT%20DISTINCT%20%3FarrondissementLabel%20%3Fpopulation%20%3Fsuperficie%0AWHERE%20%7B%0A%20%20%3Farrondissement%20wdt%3AP31%20wd%3AQ702842.%20%23arrondissement%20de%20paris%0A%20%20%3Farrondissement%20wdt%3AP1082%20%20%3Fpopulation.%20%23%20population%20(P1082)%0A%20%20%3Farrondissement%20wdt%3AP2046%20%3Fsuperficie%20.%20%23superficie%0A%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22fr%2Cen%22.%20%7D%0A%7D" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups"></iframe>
+
+
+
 
 **Voici le tableau généré par OpenRefine**
 
