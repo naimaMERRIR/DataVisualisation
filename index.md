@@ -410,7 +410,7 @@ Pour répondre à cette question, je me suis appuyé sur le jeu de données de 2
 
 <html>
 <head>
-<title>anomalies resolu xlsx</title>
+
 <meta charset="utf-8" />
 </head>
 <body>
