@@ -517,7 +517,7 @@ Le nombre total de signalements pour l’année 2022 est de 80639. On constate q
 ![2023-02-12 15_35_30-DansMaRue - Paris dans l’App Store](https://user-images.githubusercontent.com/122401240/218317752-5d8592ab-09c4-4d93-af78-c1cb0405f9bc.png)
 
 
-#6.Conclusion : <a name="conclusion"></a>
+## 6.Conclusion : <a name="conclusion"></a>
 
 J’ai choisi ce thème car je trouve que l’application “Dans ma rue” est d’une grande utilité pour les habitants de Paris. Je pense que tout le monde rêve d’avoir la même application dans sa propre ville. Quand j’ai vu le jeu de données sur l’open data de Paris, j’ai trouvé que le corpus est très bien réalisé, mis à jour et surtout exportable. Cependant, je ne savais pas qu'est ce que je dois présenter de nouveau puisque la plateforme donne déjà des visualisations toutes prêtes.  C’est pour ça que j’ai préféré travailler sur une étude comparative entre les deux mois (Juin et Novembre).  
 
