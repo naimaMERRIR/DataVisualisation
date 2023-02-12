@@ -293,9 +293,18 @@ Ces tableaux sont utilisés pour générer des représentations sous forme de ca
 <iframe title="Anomalies signalées par arrondissements en 2022 " aria-label="Map" id="datawrapper-chart-FytoW" src="https://datawrapper.dwcdn.net/FytoW/2/" scrolling="no" frameborder="0" style="border: none;" width="600" height="444" data-external="1"></iframe>
 
 
+![nombre](https://user-images.githubusercontent.com/122401240/218318466-aec104b5-9eb2-4c8f-8cfe-354677f0edb4.png)
+
+
+
+
 **Anomalies signalées par arrondissements en mois de Novembre 2022**
 
 <iframe title="Anomalies signalées par arrondissements en mois de Novembre 2022 " aria-label="Map" id="datawrapper-chart-1gUT1" src="https://datawrapper.dwcdn.net/1gUT1/1/" scrolling="no" frameborder="0" style="border: none;" width="600" height="471" data-external="1"></iframe>
+
+
+![nov](https://user-images.githubusercontent.com/122401240/218318495-260e8451-e48b-4f9c-9b07-f9eae5d34b86.png)
+
 
 **Analyse** 
 
